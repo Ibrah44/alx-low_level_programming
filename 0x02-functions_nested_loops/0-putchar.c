@@ -1,22 +1,22 @@
 #include "main.h"
+
 /**
- * main - main function .
+ * main - Entry point
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char h[] = "Ibrah";
-	int s = sizeof(h);
-	int i;
 
-	for (i = 0; i < s; i++)
-	{
-		_putchar(h[i]);
-
-	}
-
-	_putchar('\n');
+	_putchar(72);
+	_putchar(111);
+	_putchar(108);
+	_putchar(98);
+	_putchar(101);
+	_putchar(114);
+	_putchar(116);
+	_putchar(111);
+	_putchar(110);
+	_putchar ('\n');
 	return (0);
 }
-
